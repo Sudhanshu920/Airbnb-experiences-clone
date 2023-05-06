@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.nav-container {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.nav-logo {
+  height: 2rem;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
+  flex-direction: column;
+}
+
+.hero-heading {
+  align-self: flex-start;
+  font-weight: 600;
+  font-size: 36px;
+  padding: 2rem 2rem 0;
+}
+
+.hero-paragraph {
+  align-self: flex-start;
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 2rem;
+  padding-top: 0.6rem;
+  width: 350px;
+  line-height: 110%;
+}
+
+.card-container {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-pic1 {
+  width: 176px;
+  height: 235px;
+}
+
+.card-quote1 {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.card-price1 {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.star {
+  width: 14px;
+  height: 14px;
+}
+
+.card-list {
+  display: flex;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 5px 7px;
+  border-radius: 2px;
+}
